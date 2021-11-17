@@ -8,5 +8,5 @@ jobs:
     name: Python program
     steps:
       - name: run python
-        run: 
-            python3 ../main.py  
+        run:
+            ls -la
