@@ -8,6 +8,6 @@ jobs:
     name: Python program
     steps:
       - name: run python
-        run: |
-          python JenkinPractice/main.py
+        run: 
+          python src/main.py
           
