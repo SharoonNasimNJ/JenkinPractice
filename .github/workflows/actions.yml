@@ -9,5 +9,4 @@ jobs:
     steps:
       - name: run python
         run: 
-          pwd
-          
+          python3 /home/runner/work/JenkinPractice/JenkinPractice/main.py
