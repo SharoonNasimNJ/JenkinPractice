@@ -3,9 +3,9 @@ name: TestPractice
 on: push
 
 jobs:
-  testpractice:
-  name: Python program
-  runs-on: ubuntu-latest
-  steps:
-    - name: run python
-      run: python3 main.py  
+  build:
+    runs-on: ubuntu-latest
+    name: Python program
+    steps:
+      - name: run python
+        run: python3 main.py  
